@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#201235">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="birthday-scene">
+        <div class="confetti" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+        </div>
+        <div class="background-cats">
+            <span class="cat cat-top-left" aria-hidden="true">🐈</span>
+            <button class="cat cat-top-right cat-secret" type="button" aria-label="Reveal the secret birthday message" aria-expanded="false" aria-controls="cat-secret-message">
+                <span aria-hidden="true">😺</span>
+                <span class="cat-secret-message" id="cat-secret-message" aria-live="polite" aria-hidden="true" hidden>Psst... you're pawsome! Hope your birthday is full of treats, cuddles, and fun. 🐾</span>
+            </button>
+            <button class="cat cat-bottom-left cat-rain-trigger" type="button" aria-label="Make it rain cats">🐱</button>
+            <span class="cat cat-bottom-right" aria-hidden="true">🐈</span>
+            <span class="cat cat-side-left" aria-hidden="true">😸</span>
+            <span class="cat cat-side-right" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-middle-left" aria-hidden="true">🐾</span>
+            <span class="cat cat-middle-right" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-extra-1" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-extra-2" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-extra-3" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-extra-4" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-extra-5" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-extra-6" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-extra-7" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-extra-8" aria-hidden="true">😽</span>
+            <span class="cat cat-extra cat-extra-9" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-extra-10" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-extra-11" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-extra-12" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-extra-13" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-extra-14" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-extra-15" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-extra-16" aria-hidden="true">😽</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-17" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-18" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-19" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-20" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-21" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-22" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-23" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-24" aria-hidden="true">😽</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-25" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-26" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-27" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-28" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-29" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-30" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-31" aria-hidden="true">😽</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-32" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-33" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-34" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-35" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-36" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-37" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-38" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-39" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-40" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-41" aria-hidden="true">🐱</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-42" aria-hidden="true">😽</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-43" aria-hidden="true">😸</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-44" aria-hidden="true">🐈‍⬛</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-45" aria-hidden="true">😻</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-46" aria-hidden="true">🐈</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-47" aria-hidden="true">😺</span>
+            <span class="cat cat-extra cat-edge-cat cat-extra-48" aria-hidden="true">🐱</span>
+        </div>
+        <button class="hidden-hamster" type="button" aria-label="Find the hidden hamster">🐹</button>
+        <div class="cat-rain" aria-hidden="true">
+            <span class="falling-cat">🐈</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">😺</span><span class="falling-cat">🐈</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">😺</span><span class="falling-cat">🐈</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">😺</span><span class="falling-cat">🐈</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">😺</span><span class="falling-cat">🐈</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">😻</span><span class="falling-cat">🐈‍⬛</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">😺</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">🐈‍⬛</span>
+            <span class="falling-cat">😸</span><span class="falling-cat">🐈</span>
+            <span class="falling-cat">😻</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">🐈‍⬛</span><span class="falling-cat">😺</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">😸</span>
+            <span class="falling-cat">🐱</span><span class="falling-cat">😻</span>
+            <span class="falling-cat">😺</span><span class="falling-cat">🐈‍⬛</span>
+            <span class="falling-cat">🐈</span><span class="falling-cat">🐱</span>
+            <span class="falling-cat">😸</span><span class="falling-cat">😺</span>
+        </div>
+        <div class="paw-trail" aria-label="Find the three hidden paw prints">
+            <button class="paw-print paw-print-one" type="button" aria-label="Find paw print 1 of 3">🐾</button>
+            <button class="paw-print paw-print-two" type="button" aria-label="Find paw print 2 of 3">🐾</button>
+            <button class="paw-print paw-print-three" type="button" aria-label="Find paw print 3 of 3">🐾</button>
+        </div>
+        <p class="paw-secret" aria-live="polite" hidden>You found all the paws! Ham wishes you the happiest birthday ever! 🐾🎉</p>
+        <button class="hidden-star hidden-star-one" type="button" aria-label="Star">✦</button>
+        <button class="hidden-star hidden-star-two" type="button" aria-label="Star">✦</button>
+        <button class="hidden-star hidden-star-three" type="button" aria-label="Star">✦</button>
+        <p class="star-hunt-status sr-only" aria-live="polite"></p>
+        <div class="star-secret-note" role="dialog" aria-modal="false" aria-labelledby="star-secret-message" hidden>
+            <p id="star-secret-message">You found all three stars! Ham, may your birthday sparkle with laughter, sweet surprises, and all the happiness you deserve! ✨</p>
+            <button class="star-secret-close" type="button">Close birthday message</button>
+        </div>
+
+        <p class="eyebrow">A little <button class="surprise-trigger" type="button" aria-label="Surprise">surprise</button> for you</p>
+        <h1 tabindex="0">Make a wish, <button class="ham-trigger" type="button" aria-label="Make the hamster pop up">Ham</button>!</h1>
+        <div class="hamster-pop" aria-hidden="true">
+            <span class="hamster-pop-sparkle">✦</span>
+            <span class="hamster-pop-face">🐹</span>
+            <span class="hamster-pop-sparkle">✨</span>
+        </div>
+        <p class="dance-party-message" aria-live="polite" hidden>Ham's having a birthday dance party! 🎉</p>
+        <p class="instruction">Open the present, then tap the card</p>
+
+        <div class="present-controls">
+            <div class="birthday-present">
+                <div class="present">
+                <input id="open-present" type="checkbox">
+                <label class="cover" for="open-present">
+                    <span class="sr-only">Open the birthday present</span>
+                    <span class="bow" aria-hidden="true">
+                        <span class="bow-tail bow-tail-left"></span>
+                        <span class="bow-tail bow-tail-right"></span>
+                        <span class="bow-loop bow-loop-left"></span>
+                        <span class="bow-loop bow-loop-right"></span>
+                    </span>
+                </label>
+                <div class="ribbon" aria-hidden="true"></div>
+                <div class="birthday-message" aria-live="polite">
+                    <span class="message-sparkle" aria-hidden="true">✦</span>
+                    <span>HAPPY<br>BIRTHDAY HAM!</span>
+                    <span class="message-sparkle" aria-hidden="true">✦</span>
+                </div>
+                <div class="confetti-burst" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                </div>
+                <div class="fireworks" aria-hidden="true">
+                    <div class="firework firework-left">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-center">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-right">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-far-left">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-far-right">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-extra-left">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-extra-center">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="firework firework-extra-right">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <button class="birthday-card" type="button" aria-label="Open birthday card" aria-expanded="false" disabled>
+                    <span class="card-flip">
+                        <span class="card-face card-front">
+                            <span class="card-decoration" aria-hidden="true">✦</span>
+                            <span class="card-title">A little<br>birthday note</span>
+                            <span class="card-hint">Tap to read</span>
+                        </span>
+                        <span class="card-face card-inside">
+                            <span class="card-note">Happy Birthday! I hope you like this birthday code. Have a great birthday and wishing you well.</span>
+                            <span class="card-heart" aria-hidden="true">♥</span>
+                        </span>
+                    </span>
+                </button>
+                </div>
+            </div>
+            <button class="replay-button" type="button">Replay the surprise</button>
+        </div>
+
+        <section class="cake-surprise" aria-labelledby="cake-title">
+            <h2 id="cake-title">Make a wish, Ham!</h2>
+            <button class="birthday-cake" type="button" aria-label="Blow out the birthday candles" aria-pressed="false" aria-controls="candle-secret">
+                <span class="cake-candle cake-candle-left"><span class="candle-flame"></span><span class="candle-smoke"></span></span>
+                <span class="cake-candle cake-candle-center"><span class="candle-flame"></span><span class="candle-smoke"></span></span>
+                <span class="cake-candle cake-candle-right"><span class="candle-flame"></span><span class="candle-smoke"></span></span>
+                <span class="cake-frosting" aria-hidden="true"></span>
+                <span class="cake-body" aria-hidden="true">
+                    <span class="cake-greeting">Happy Birthday!</span>
+                    <span class="cake-sprinkle cake-sprinkle-1"></span>
+                    <span class="cake-sprinkle cake-sprinkle-2"></span>
+                    <span class="cake-sprinkle cake-sprinkle-3"></span>
+                    <span class="cake-sprinkle cake-sprinkle-4"></span>
+                    <span class="cake-sprinkle cake-sprinkle-5"></span>
+                    <span class="cake-sprinkle cake-sprinkle-6"></span>
+                    <span class="cake-sprinkle cake-sprinkle-7"></span>
+                    <span class="cake-sprinkle cake-sprinkle-8"></span>
+                    <span class="cake-sprinkle cake-sprinkle-9"></span>
+                    <span class="cake-sprinkle cake-sprinkle-10"></span>
+                    <span class="cake-sprinkle cake-sprinkle-11"></span>
+                    <span class="cake-sprinkle cake-sprinkle-12"></span>
+                </span>
+                <span class="cake-plate" aria-hidden="true"></span>
+            </button>
+            <p class="cake-status" aria-live="polite">Tap the cake to blow out the candles!</p>
+            <p class="candle-secret" id="candle-secret" aria-live="polite" hidden>You make the world brighter, Ham. Keep shining! ✨</p>
+            <p class="candle-order-secret" aria-live="polite" hidden>You found the hidden birthday-song pattern: center, right, left! 🎵</p>
+        </section>
+
+        <section class="wish-section" aria-labelledby="wish-title">
+            <h2 id="wish-title">Make a birthday wish</h2>
+            <form class="wish-form">
+                <label class="sr-only" for="birthday-wish">Your birthday wish</label>
+                <input id="birthday-wish" name="wish" type="text" maxlength="80" placeholder="Type a wish for Ham..." required>
+                <button type="submit">Send it to the stars</button>
+            </form>
+            <p class="wish-status" aria-live="polite">Write a wish and send it into the sky!</p>
+            <figure class="wish-kyoko-reveal" hidden>
+                <img src="images/no.jpg" alt="A special illustrated birthday picture">
+                <figcaption></figcaption>
+            </figure>
+        </section>
+        <div class="wish-star" aria-hidden="true">
+            <span class="wish-star-symbol">✦</span>
+            <span class="wish-star-text"></span>
+            <span class="wish-star-burst">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+            </span>
+        </div>
+        <p class="wish-reveal" aria-live="polite" hidden></p>
+        <div class="wish-star-storm" aria-hidden="true" hidden>
+            <div class="wish-storm-cloud"></div>
+            <div class="wish-falling-stars"></div>
+        </div>
+        <div class="wish-party-celebration" aria-hidden="true" hidden>
+            <div class="wish-party-rainbow"></div>
+            <div class="wish-party-confetti"></div>
+        </div>
+        <div class="birthday-constellation" aria-label="Hidden birthday constellation. Tap the five stars from left to right.">
+            <svg class="constellation-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <polyline points="22,30 36,18 50,30 64,18 78,30"></polyline>
+            </svg>
+            <button class="constellation-star constellation-star-one" type="button" aria-label="Constellation star 1 of 5, leftmost">✦</button>
+            <button class="constellation-star constellation-star-two" type="button" aria-label="Constellation star 2 of 5">✦</button>
+            <button class="constellation-star constellation-star-three" type="button" aria-label="Constellation star 3 of 5">✦</button>
+            <button class="constellation-star constellation-star-four" type="button" aria-label="Constellation star 4 of 5">✦</button>
+            <button class="constellation-star constellation-star-five" type="button" aria-label="Constellation star 5 of 5, rightmost">✦</button>
+            <p class="constellation-status sr-only" aria-live="polite"></p>
+            <p class="constellation-message" aria-live="polite" hidden>You connected the birthday constellation! Make a wish, Ham! ✨</p>
+        </div>
+        <button class="hidden-birthday-badge" type="button" aria-label="Birthday badge">🏅</button>
+        <section class="birthday-badge-note" role="dialog" aria-modal="false" aria-labelledby="birthday-badge-message" hidden>
+            <p id="birthday-badge-message">You found Ham's birthday badge! You're officially a birthday superstar! 🌟</p>
+            <button class="birthday-badge-close" type="button">Close badge message</button>
+        </section>
+
+        <section class="memory-section" aria-labelledby="memory-title">
+            <h2 id="memory-title">A birthday memory</h2>
+            <figure class="memory-card">
+                <div class="memory-photo-frame">
+                    <img class="memory-photo" id="birthday-memory-photo" src="images/photo_2026-11-08_09-11-22.jpg" alt="Ham celebrating with friends" role="button" tabindex="0" aria-label="Tap the birthday photo to see a colorful light" hidden>
+                    <button class="memory-reveal-button" type="button" aria-expanded="false" aria-controls="birthday-memory-photo">
+                        <span class="memory-photo-icon" aria-hidden="true">📷</span>
+                        <span>Tap to reveal the photo!</span>
+                    </button>
+                    <span class="memory-light-flash" aria-hidden="true"></span>
+                    <span class="memory-secret-message" aria-live="polite" hidden>Best birthday ever! ✨</span>
+                </div>
+                <figcaption>A favorite birthday memory with Ham</figcaption>
+            </figure>
+        </section>
+
+        <p class="footer-note">Wishing you a day full of magic ✨</p>
+        <div class="page-controls">
+            <button class="music-button" type="button" aria-pressed="false">Play birthday music</button>
+            <button class="sound-button" type="button" aria-pressed="true">Sound effects: on</button>
+        </div>
+        <p class="audio-status" id="audio-status" aria-live="polite"></p>
+        <div class="candle-celebration" aria-hidden="true"></div>
+        <section class="page-puzzle" role="dialog" aria-modal="true" aria-labelledby="page-puzzle-title" aria-describedby="page-puzzle-instructions" hidden>
+            <div class="page-puzzle-panel">
+                <h2 id="page-puzzle-title">The birthday page got jumbled!</h2>
+                <p id="page-puzzle-instructions">Drag pieces to any spot. Wrong spots turn red and the right spots turn green. On a touch screen, tap a piece and then a spot. You can move pieces again at any time.</p>
+                <div class="page-puzzle-board" role="group" aria-label="Birthday page puzzle spots">
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="0" aria-label="Puzzle spot 1: decorations"><span class="page-puzzle-slot-number" aria-hidden="true">1</span></div>
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="1" aria-label="Puzzle spot 2: greeting"><span class="page-puzzle-slot-number" aria-hidden="true">2</span></div>
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="2" aria-label="Puzzle spot 3: present"><span class="page-puzzle-slot-number" aria-hidden="true">3</span></div>
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="3" aria-label="Puzzle spot 4: cake"><span class="page-puzzle-slot-number" aria-hidden="true">4</span></div>
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="4" aria-label="Puzzle spot 5: wish"><span class="page-puzzle-slot-number" aria-hidden="true">5</span></div>
+                    <div class="page-puzzle-slot" role="group" tabindex="0" data-slot="5" aria-label="Puzzle spot 6: memory"><span class="page-puzzle-slot-number" aria-hidden="true">6</span></div>
+                </div>
+                <div class="page-puzzle-pieces" role="group" aria-label="Birthday page pieces">
+                    <button class="page-puzzle-piece" type="button" data-piece="3" aria-pressed="false"><span aria-hidden="true">🎂</span><span>Cake</span></button>
+                    <button class="page-puzzle-piece" type="button" data-piece="0" aria-pressed="false"><span aria-hidden="true">🐾</span><span>Decorations</span></button>
+                    <button class="page-puzzle-piece" type="button" data-piece="5" aria-pressed="false"><span aria-hidden="true">📸</span><span>Memory</span></button>
+                    <button class="page-puzzle-piece" type="button" data-piece="2" aria-pressed="false"><span aria-hidden="true">🎁</span><span>Present</span></button>
+                    <button class="page-puzzle-piece" type="button" data-piece="4" aria-pressed="false"><span aria-hidden="true">⭐</span><span>Wish</span></button>
+                    <button class="page-puzzle-piece" type="button" data-piece="1" aria-pressed="false"><span aria-hidden="true">🎉</span><span>Greeting</span></button>
+                </div>
+                <p class="page-puzzle-status" aria-live="polite">Choose a piece and put the birthday sections back in order.</p>
+                <div class="page-puzzle-complete" hidden>
+                    <p>The birthday page is back together! 🎉</p>
+                    <button class="page-puzzle-return" type="button">Return to the birthday page</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="pinata-surprise" role="dialog" aria-modal="true" aria-label="Hidden birthday piñata" hidden>
+        <button class="pinata-button" type="button" aria-label="Piñata, 20 taps remaining">🪅</button>
+        <div class="pinata-candy" aria-hidden="true"></div>
+        <p class="sr-only pinata-status" aria-live="polite"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
